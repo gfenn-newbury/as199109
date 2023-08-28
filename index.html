@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <title>AS199109: Guy Fenn-Newbury Network</title>
+    <meta name="description" content="A small IPv6 only personal network run by Guy, a software/devops engineer from High Wycombe, United Kingdom">
+    <style>
+        html {
+            color-scheme: light dark;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <div class="l">
+            <p>
+                aut-num:
+                <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&key=AS199109&type=aut-num" target="_blank" rel="noreferrer">as199109</a>
+            </p>
+            <p>
+                as-set:
+                <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&key=as199109:as-all&type=as-set" target="_blank" rel="noreferrer">as199109:as-guynewbury</a>
+            </p>
+            <p>
+                route-set:
+                <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&key=as199109:rs-all&type=route-set" target="_blank" rel="noreferrer">as199109:as-guynewbury</a>
+            </p>
+            <p>
+                links:
+                <a href="https://peeringdb.com/asn/199109" target="_blank" rel="noreferrer">PeeringDB</a>,
+                <a href="https://bgp.tools/as/199109" target="_blank" rel="noreferrer">bgp.tools</a>
+            </p>
+        </div>
+        <div>
+            <p class="r">
+                Guy Fenn-Newbury
+            </p>
+            <p class="r">
+                <a href="mailto:noc@as199109.net">noc@as199109.net</a>
+            </p>
+        </div>
+    </header>
+    <h1>
+        AS199109: Guy Fenn-Newbury Network
+    </h1>
+    <h2 id="about">
+        About
+    </h2>
+    <section>
+        <p>
+            This is a small network operated by Guy. I'm a devops engineer and IPv6 enthusiast based in High Wycombe, United Kingdom. Most network traffic will come from my homelab, and a few VLANs of my home network setup.
+        </p>
+    </section>
+    <h2 id="why">
+        Why
+    </h2>
+    <section>
+        <p>
+            Why manage my own network? Mainly because I find it fun. As a person working in Platform/Devops engineering, I get to play with a lot of technologies as part of my work. However, networking usually isn't one of them. So I do it as a hobby in my free time.
+        </p>
+        <p>
+            Additionally, IPv6 implementation in the UK is very much lacking, with many ISPs relying on CG-NAT to extend the use of IPv4 since the global exhaustion of IPv4 addresses.
+        </p>
+    </section>
+    <h2 id="contact">
+        Contact
+    </h2>
+    <section>
+        <p>
+            Feel free to reach out via <a href="mailto:noc@as199109.net">email</a>.
+            I'm open to advice and new opportunities.
+        </p>
+        <p>
+            In case things went horribly wrong, please send an email directly to <a href="mailto:noc@as199109.net">noc@as199109.net</a>. This address is monitored at least daily.
+        </p>
+    </section>
+    <h2 id="peering">
+        Peering
+    </h2>
+    <section>
+        <p>
+            In general I maintain an open peering policy and peer at physical IXPs.
+            Check out <a href="https://peerwith.me/199109" target="_blank" rel="noreferrer">PeeringDB</a> for detailed and up-to-date information.
+        </p>
+        <p>
+            I currently have a peering presence at the following IXPs:
+            <ul>
+                <li>FogIXP (Frankfurt, Germany)</li>
+            </ul>
+        </p>
+        <p>
+            If you are interested in peering, please send an email to <a href="mailto:noc@as199109.net">noc@as199109.net</a>.
+        </p>
+    </section>
+    <h2 id="notes">
+        Notes
+    </h2>
+    <section>
+        <p>
+            Some parts of the network will be named "Guy Newbury" and other parts "Guy Fenn-Newbury". This is because I have recently married and changed my name. However, they both refer to the same network.
+        </p>
+    </section>
+    <h2 id="credits">
+        Credits
+    </h2>
+    <section>
+        <p>
+            I owe a lot of my knowledge to the <a href="https://discord.gg/ipv6">IPv6 Discord group</a>, who have helped guide me in setting up my ASN, getting prefix allocations, and getting IXP peering and transit set up. Without them, I would still be fumbling about with tunnelbrokers.
+        </p>
+        <p>
+            Additionally, this site layout was designed by Hazel Reimer, who created it for <a href="https://as200242.net">Hazelnet (AS200242)</a>. She has very kindly let me use it for my site.
+        </p>
+    </section>
+</main>
+<style>
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: monospace;
+	font-size: 11pt;
+}
+
+main {
+	margin: auto;
+	max-width: 72ch;
+	padding: 3ch;
+	text-align: left;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	column-gap: 2ch;
+	margin-bottom: 1em;
+}
+
+header .l {
+	flex-grow: 1;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2 {
+	font-size: 1em;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+header p {
+	margin: 0;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a, a:visited {
+	color: #00e;
+	white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
+    a, a:visited {
+        color: #619bff;
+    }
+
+    html, body {
+        background-color: #111213;
+    }
+}
+
+.l {
+	text-align: left;	
+}
+
+.r {
+	text-align: right;
+}
+
+section {
+	margin-left: 3ch;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	margin-bottom: 1em;
+	position: relative;
+	margin-left: 3ch;
+}
+
+ul li::before {
+	position: absolute;
+	left: -3ch;
+	content: "-";
+}
+</style>
+</body>
+</html>
+
