@@ -11,4 +11,5 @@ Internet Exchanges:
 
 Prefixes:
 
-- 2a0c:9a40:8320::/48
+- 2a0c:9a40:8320::/44
+- 2a0f:85c1:d6c::/48
