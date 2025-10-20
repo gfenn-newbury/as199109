@@ -100,6 +100,26 @@
             If you are interested in peering, please send an email to <a href="mailto:peering@as199109.net">peering@as199109.net</a>.
         </p>
     </section>
+    <h2 id="geofeed">
+        Geofeed
+    </h2>
+    <section>
+        <p>
+            <pre id="csv-output"></pre>
+
+            <script>
+                fetch('./geofeed.csv')
+                .then(response => response.text())
+                .then(text => {
+                    document.getElementById('csv-output').textContent = text;
+                })
+                .catch(err => {
+                    // document.getElementById('csv-output').textContent = '<a href="./geofeed.csv">Geofeed</a>'
+                    // document.getElementById('csv-output').textContent = 'Error loading CSV: ' + err;
+                });
+            </script>
+        </p>
+    </section>
     <h2 id="notes">
         Notes
     </h2>
