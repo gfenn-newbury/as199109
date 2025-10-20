@@ -84,7 +84,7 @@ ul {
 }
 
 ul li {
-	margin-bottom: 1em;
+	/* margin-bottom: 1em; */
 	position: relative;
 	margin-left: 3ch;
 }
@@ -93,6 +93,10 @@ ul li::before {
 	position: absolute;
 	left: -3ch;
 	content: "-";
+}
+
+li {
+
 }
 
 footer {
